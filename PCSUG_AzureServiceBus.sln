@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queueing", "Queueing", "{B8734D99-F110-434A-849C-0759148178E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics", "Topics", "{0A6282B9-4CE7-4BE6-A033-FACFCBF6EA82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Relay", "Relay", "{5C665B61-7E09-4B1B-A90B-F536506B152D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventHub", "EventHub", "{21A71AEA-9199-4651-91D1-29C331E4DB4C}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMeEventHub.txt = ReadMeEventHub.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTopicSubscriber", "DemoTopicSubscriber\DemoTopicSubscriber.csproj", "{E9EAB823-9794-40A6-873C-172DC8A74F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTopicSender", "DemoTopicSender\DemoTopicSender.csproj", "{6EF42039-6416-4688-AC5B-462A460897BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQueueingReceiver", "DemoQueueingReceiver\DemoQueueingReceiver.csproj", "{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQueueingSender", "DemoQueueingSender\DemoQueueingSender.csproj", "{4343E2ED-4DED-4B34-8DEF-0D16D38934C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRelayClient", "DemoRelayClient\DemoRelayClient.csproj", "{99091B6D-D2D5-46F5-8BB3-E8FAE620C869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRelayService", "DemoRelayService\DemoRelayService.csproj", "{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsDemo.Shared", "EventHubsDemo.Shared\EventHubsDemo.Shared.csproj", "{36226C41-A088-4742-83C0-397AFB5DE04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsDemo.CorporateWebApp", "EventHubsDemo.CorporateWebApp\EventHubsDemo.CorporateWebApp.csproj", "{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubsDemo.Processor", "EventHubsDemo.Processor\EventHubsDemo.Processor.csproj", "{5F36AA7D-B582-4628-801C-1571873E4784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9EAB823-9794-40A6-873C-172DC8A74F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EAB823-9794-40A6-873C-172DC8A74F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EAB823-9794-40A6-873C-172DC8A74F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EAB823-9794-40A6-873C-172DC8A74F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF42039-6416-4688-AC5B-462A460897BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF42039-6416-4688-AC5B-462A460897BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF42039-6416-4688-AC5B-462A460897BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF42039-6416-4688-AC5B-462A460897BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4343E2ED-4DED-4B34-8DEF-0D16D38934C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4343E2ED-4DED-4B34-8DEF-0D16D38934C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4343E2ED-4DED-4B34-8DEF-0D16D38934C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4343E2ED-4DED-4B34-8DEF-0D16D38934C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99091B6D-D2D5-46F5-8BB3-E8FAE620C869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99091B6D-D2D5-46F5-8BB3-E8FAE620C869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99091B6D-D2D5-46F5-8BB3-E8FAE620C869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99091B6D-D2D5-46F5-8BB3-E8FAE620C869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36226C41-A088-4742-83C0-397AFB5DE04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36226C41-A088-4742-83C0-397AFB5DE04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36226C41-A088-4742-83C0-397AFB5DE04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36226C41-A088-4742-83C0-397AFB5DE04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F36AA7D-B582-4628-801C-1571873E4784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F36AA7D-B582-4628-801C-1571873E4784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F36AA7D-B582-4628-801C-1571873E4784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F36AA7D-B582-4628-801C-1571873E4784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9EAB823-9794-40A6-873C-172DC8A74F7A} = {0A6282B9-4CE7-4BE6-A033-FACFCBF6EA82}
+		{6EF42039-6416-4688-AC5B-462A460897BD} = {0A6282B9-4CE7-4BE6-A033-FACFCBF6EA82}
+		{E4E222E4-5E59-4944-A9C2-6AC3FB7499F7} = {B8734D99-F110-434A-849C-0759148178E7}
+		{4343E2ED-4DED-4B34-8DEF-0D16D38934C4} = {B8734D99-F110-434A-849C-0759148178E7}
+		{99091B6D-D2D5-46F5-8BB3-E8FAE620C869} = {5C665B61-7E09-4B1B-A90B-F536506B152D}
+		{6F0F6AC5-496B-42E3-9C6D-AA47E9C39DE7} = {5C665B61-7E09-4B1B-A90B-F536506B152D}
+		{36226C41-A088-4742-83C0-397AFB5DE04E} = {21A71AEA-9199-4651-91D1-29C331E4DB4C}
+		{908767B5-3EF2-4FC7-A1C2-10E9ADBE8D05} = {21A71AEA-9199-4651-91D1-29C331E4DB4C}
+		{5F36AA7D-B582-4628-801C-1571873E4784} = {21A71AEA-9199-4651-91D1-29C331E4DB4C}
+	EndGlobalSection
+EndGlobal
